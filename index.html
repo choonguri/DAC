@@ -30,11 +30,17 @@
     }
 
     .service {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 220px; /* 필요에 따라 조정 가능 */
       background-color: #fff;
-       border-radius: 12px;
-       padding: 12px;
-       box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-       transition: transform 0.2s;
+      border-radius: 12px;
+      padding: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      transition: transform 0.2s;
+      text-align: center;
     }
 
     .service:hover {
@@ -48,6 +54,7 @@
     }
 
     .service-name {
+      margin-top: auto;
       font-weight: bold;
       color: #333;
       font-size: 14px;
